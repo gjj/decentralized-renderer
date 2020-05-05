@@ -1,8 +1,6 @@
-# decentralized-renderer-react-template
+# Decentralized Renderer
 
-[![CircleCI](https://circleci.com/gh/Open-Attestation/decentralized-renderer-react-template.svg?style=svg)](https://circleci.com/gh/Open-Attestation/decentralized-renderer-react-template)
-
-React boilerplate to write decentralize renderer.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b0b29eeb-04fe-4859-801e-1b560b4d566a/deploy-status)](https://app.netlify.com/sites/demo-renderer-test/deploys)
 
 ## Install
 
