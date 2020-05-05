@@ -9,13 +9,14 @@ describe("customTemplate", () => {
       <CustomTemplate document={customTemplateCertificate} handleObfuscation={() => void 0} />
     );
     // eslint-disable-next-line jest/no-truthy-falsy
-    expect(queryByText("Bar is awesome")).toBeTruthy();
+    expect(queryByText("OpenAttestation Tutorial Certificate of Completion")).toBeTruthy();
   });
   it("should render with default title", () => {
     const { queryByText } = render(
-      <CustomTemplate document={{ ...customTemplateCertificate, foo: undefined }} handleObfuscation={() => void 0} />
+      // Updated test case for certificate of completion
+      <CustomTemplate document={customTemplateCertificate} handleObfuscation={() => void 0} />
     );
     // eslint-disable-next-line jest/no-truthy-falsy
-    expect(queryByText("Default title")).toBeTruthy();
+    expect(queryByText("John Doe")).toBeTruthy();
   });
 });
